@@ -6,7 +6,7 @@
 
   <groupId>com.thinknyx.training</groupId>
   <artifactId>vodafone</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>war</packaging>
 
   <name>vodafone Maven Webapp</name>

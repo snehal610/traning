@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.thinknyx.training</groupId>
-  <artifactId>vodafone</artifactId>
+  <artifactId>snehal</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -18,6 +18,16 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+<distributionManagement>
+        	<repository>
+	            <id>nexus</id>
+	            <url>http://15.206.48.100:8081/repository/maven-releases/</url>
+	        </repository>
+	        <snapshotRepository>
+                <id>nexus</id>
+                <url>http://15.206.48.100:8081/repository/maven-snapshots/</url>
+        	</snapshotRepository>
+</distributionManagement>
 
   <dependencies>
     <dependency>

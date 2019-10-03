@@ -7,7 +7,7 @@ ls -ltr
 echo "testing" >> test
 ls -ltr
 echo "$Environment for $Variable" >> test
-
+echo "hi this is neha"
 echo "[INFO] GIT Jenkins Integratioon Demo"
 echo "[INFO] POLL SCM Demo"
 echo "[INFO] GIT PULL Demo"
